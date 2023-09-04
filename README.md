@@ -1,13 +1,15 @@
-## TypeScriptとReact/Next.jsでつくる実践Webアプリケーション
+## 下記　公式からの引用
 
-「[TypeScriptとReact/Next.jsでつくる実践Webアプリケーション](https://gihyo.jp/book/2022/978-4-297-12916-3)」のサンプルアプリ
+## TypeScript と React/Next.js でつくる実践 Web アプリケーション
+
+「[TypeScript と React/Next.js でつくる実践 Web アプリケーション](https://gihyo.jp/book/2022/978-4-297-12916-3)」のサンプルアプリ
 
 ![サンプルアプリ](https://user-images.githubusercontent.com/2387508/178550902-a7c1e47b-a322-413c-b9ad-2ffff79e041d.png)
 
 ## 初版からのアップデート
 
 - [ビルドが失敗する問題を修正](https://github.com/gihyo-book/ts-nextbook-app/pull/6)
-- [Storybookが最新のNext.jsで動作しない問題を修正](https://github.com/gihyo-book/ts-nextbook-app/pull/5)
+- [Storybook が最新の Next.js で動作しない問題を修正](https://github.com/gihyo-book/ts-nextbook-app/pull/5)
 
 ## 環境
 
@@ -23,7 +25,7 @@ npm install
 
 ## 環境変数の設定
 
-.envを開く
+.env を開く
 
 ```
 API_BASE_URL=<バックエンドAPIへのベースURLの設定>
@@ -32,8 +34,7 @@ NEXT_PUBLIC_API_BASE_PATH=/api/proxy
 
 ## 開発サーバー起動
 
-JSON Serverの設定と起動
-
+JSON Server の設定と起動
 
 こちらのリポジトリとは別のディレクトリで作業する
 
@@ -50,9 +51,9 @@ npm start
 npm run dev
 ```
 
-## Storybook起動
+## Storybook 起動
 
-Storybookを起動し、http://localhost:6006/ にアクセス
+Storybook を起動し、http://localhost:6006/ にアクセス
 
 ```
 npm run storybook
